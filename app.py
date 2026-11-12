@@ -4,8 +4,7 @@ import pandas as pd
 
 st.set_page_config(page_title="Business KPI Dashboard", layout="wide")
 
-df = pd.read_csv('/content/customer_churn_sample (4).csv')
-
+df = pd.read_csv('customer_churn_sample (4).csv')
 st.title("Business KPI Dashboard")
 st.subheader("Customer Churn and Revenue Analysis")
 
